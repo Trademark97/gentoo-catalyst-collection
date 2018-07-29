@@ -16,3 +16,9 @@ You might gain a greater understanding of the work necessary to build a Linux in
 done in a Gentoo Stage 1 build is quite similar to that which is necessary to be done during the compilation stage of the
 **Linux from Scratch** handbook). Or, you might wish to experience what used to be the normal install in the "old days" of
 Gentoo.
+
+Why are you hosting your stage tarballs on Google Drive?
+--------------------------------------------------------
+This is a temporary workaround to a restriction imposed by Github, which has a hard limit of 100MiB (stage tarballs can
+be, and most often are, much larger than that). Once I complete the transition to Gitlab, the tarballs will be directly
+hosted on the repository itself.
